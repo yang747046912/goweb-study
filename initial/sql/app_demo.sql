@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS as_user;
+
+CREATE TABLE as_user(
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+  user_name VARCHAR(255) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL ,
+  email VARCHAR(255) NOT NULL
+);
+
+INSERT INTO as_user (user_name, password, email)VALUES ('yang747046912','6343498a','18010450019@163.com');
+
+SELECT * FROM as_user;
