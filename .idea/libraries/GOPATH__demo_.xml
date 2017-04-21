@@ -1,12 +1,14 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;demo&gt;">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../opms" />
       <root url="file://$PROJECT_DIR$/../test" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../sourcegraph.com" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/../opms" />
       <root url="file://$PROJECT_DIR$/../test" />
       <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../sourcegraph.com" />

@@ -166,7 +166,7 @@
                                     </h4>
                                     <div class="space-6"></div>
                                     <p> 请填写注册信息: </p>
-                                    <form>
+                                    <form id="signup-box-form">
                                         <fieldset>
                                             <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
@@ -330,6 +330,9 @@
                 alert("两次输入的密码不一致")
                 return
             }
+            $.post('/user/register',$('#signup-box-form').serialize(),function (result) {
+                alert(result)
+            },'json')
         });
     });
 </script>

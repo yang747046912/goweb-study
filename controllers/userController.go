@@ -39,3 +39,31 @@ func (this *UserController)Post() {
 func (this *UserController)Get() {
 	this.TplName = "user/register.tpl"
 }
+
+type SignController struct {
+	beego.Controller
+}
+
+func (this *SignController)Post() {
+	email := this.GetString("email")
+	if email == "" {
+		this.Data["json"] = "请正确输入邮箱"
+		this.ServeJSON()
+		return
+	}
+	username := this.GetString("username")
+	if username == "" {
+		this.Data["json"] = "请至少正确输入六位用户名"
+		this.ServeJSON()
+		return
+	}
+	password := this.GetString("password")
+	if password == "" {
+		this.Data["json"] = "请至少正确输入六位密码"
+		this.ServeJSON()
+		return
+	}
+	msg := user.SignUser(username, password, email)
+	this.Data["json"] = msg
+	this.ServeJSON()
+}
