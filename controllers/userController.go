@@ -11,7 +11,6 @@ type UserController struct {
 }
 
 func (this *UserController)Post() {
-
 	userName := this.GetString("username", "")
 	password := this.GetString("password", "")
 	if len(userName) < 6 {
@@ -37,7 +36,21 @@ func (this *UserController)Post() {
 }
 
 func (this *UserController)Get() {
-	this.TplName = "user/register.tpl"
+	email := this.GetString("email")
+	if "" == email {
+		this.Data["json"] = "邮箱不能为空"
+		this.ServeJSON()
+		return
+	}
+	err, msg := user.FindPasswordByEmail(email)
+	if err != nil {
+		this.Data["json"] = "修改密码失败"
+		this.ServeJSON()
+		return
+	}
+	this.Data["json"] = msg
+	this.ServeJSON()
+	return
 }
 
 type SignController struct {

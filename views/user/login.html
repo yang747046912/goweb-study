@@ -129,17 +129,19 @@
                                         请输入注册邮箱
                                     </p>
 
-                                    <form>
+                                    <form id="forgot-box-form">
                                         <fieldset>
                                             <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="email" class="form-control" placeholder="邮箱"/>
+															<input type="email" id="forgot-box-email" name="email"
+                                                                   class="form-control" placeholder="邮箱"/>
 															<i class="ace-icon fa fa-envelope"></i>
 														</span>
                                             </label>
 
                                             <div class="clearfix">
-                                                <button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+                                                <button type="button" id="forgot-box-sure"
+                                                        class="width-35 pull-right btn btn-sm btn-danger">
                                                     <i class="ace-icon fa fa-lightbulb-o"></i>
                                                     <span class="bigger-110">确定</span>
                                                 </button>
@@ -330,10 +332,21 @@
                 alert("两次输入的密码不一致")
                 return
             }
-            $.post('/user/register',$('#signup-box-form').serialize(),function (result) {
+            $.post('/user/register', $('#signup-box-form').serialize(), function (result) {
                 alert(result)
-            },'json')
+            }, 'json')
         });
+        $('#forgot-box-sure').on('click', function (e) {
+            e.preventDefault()
+            var email = $('#forgot-box-email').val()
+            if (email.length == 0) {
+                alert("请正确输入邮箱")
+                return
+            }
+            $.get('/user/password', {email: email}, function (result) {
+                alert(result)
+            });
+        })
     });
 </script>
 
