@@ -10,6 +10,7 @@
 
     <!-- bootstrap & fontawesome -->
     <link rel="stylesheet" href="/static/ace-1.4/assets/css/bootstrap.css"/>
+    <!--<script src="/static/ace-1.4/components/bootstrap/dist/js/bootstrap.min.js"/>-->
     <link rel="stylesheet" href="/static/ace-1.4/components/font-awesome/css/font-awesome.css"/>
 
     <!-- text fonts -->
@@ -257,13 +258,39 @@
             </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.main-content -->
+
 </div><!-- /.main-container -->
 
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 300px;margin-top: 150px">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    提示
+                </h4>
+            </div>
+            <div class="modal-body" id="modal-msg">
+                在这里添加一些文本
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="modal-dismiss" style="visibility: hidden" class="btn btn-default">关闭
+                </button>
+                <button type="button" id="modal-sure" class="btn btn-primary" data-dismiss="modal">
+                    确定
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
 <!-- basic scripts -->
 
 <!--[if !IE]> -->
 <script src="/static/ace-1.4/components/jquery/dist/jquery.js"></script>
-
+<script src="/static/ace-1.4/components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- <![endif]-->
 
 <!--[if IE]>
@@ -291,18 +318,27 @@
             e.preventDefault()
             var userName = $('#username').val()
             if (userName.length < 6) {
-                alert('请填写用户名')
-                return
+                $('#modal-msg').html("请输入六位用户名")
+                $('#myModal').modal({
+                    keyboard: true
+                })
+                return false;
             }
             var passWord = $('#password').val()
             if (passWord.length < 6) {
-                alert('请填写6位密码')
+                $('#modal-msg').html("请填写6位密码")
+                $('#myModal').modal({
+                    keyboard: true
+                })
                 return
             }
             var aa = $('#login-box-form').serialize()
 
             $.post('/user/login', aa, function (result) {
-                alert(result)
+                $('#modal-msg').html(result)
+                $('#myModal').modal({
+                    keyboard: true
+                })
             }, 'json')
         });
 
@@ -347,8 +383,18 @@
                 alert(result)
             });
         })
+
+        $('#myModal').on('hide.bs.modal', function () {
+            var msg = $('#modal-msg').html()
+            console.log(msg)
+            if (msg=='登录成功'){
+                window.location.href='/main/view'
+            }
+        })
     });
 </script>
+
+t>
 
 </body>
 </html>
