@@ -20,7 +20,7 @@ type jsonData struct {
 
 type tatallData struct {
 	Total int `json:"total"`
-	Rows[] jsonData `json:"rows"`
+	Rows[] jsonData `json:"data"`
 }
 func (this *DishController)Get() {
 	bytes, _ := ReadAll("/home/yangcai/go/src/demo/static/data/data1.json")
@@ -34,6 +34,7 @@ func (this *DishController)Get() {
 
 func ReadAll(filePth string) ([]byte, error) {
 	f, err := os.Open(filePth)
+	defer f.Close()
 	if err != nil {
 		return nil, err
 	}

@@ -2,552 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd55df67-c8e5-4318-a2f2-b993c22e735d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/flash/ZeroClipboard.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/images/alipay.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/images/alipayLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/images/paypalLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/images/weixin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/images/weixinLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/tree-column/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/DONATORS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/bootstrap-table.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table-locale-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table-locale-all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/angular/bootstrap-table-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/cookie/bootstrap-table-cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/export/bootstrap-table-export.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/filter/bootstrap-table-filter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/group-by/bootstrap-table-group-by.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/key-events/bootstrap-table-key-events.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/mobile/bootstrap-table-mobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/resizable/bootstrap-table-resizable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-af-ZA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-af-ZA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ar-SA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ar-SA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ca-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-cs-CZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-da-DK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-de-DE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-el-GR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-el-GR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-en-US.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-AR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-CR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-CR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-MX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-MX.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-NI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-NI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-SP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-es-SP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-et-EE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-et-EE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fa-IR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fr-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fr-BE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-fr-FR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-he-IL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-hr-HR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-hu-HU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-it-IT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ja-JP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ka-GE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ka-GE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ko-KR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ms-MY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ms-MY.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-nb-NO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-nl-NL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pl-PL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-pt-PT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ro-RO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ru-RU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-sk-SK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-sv-SE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-th-TH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-tr-TR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-uk-UA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ur-PK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-ur-PK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-vi-VN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/dist/locale/bootstrap-table-zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/documentation/column-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/documentation/events.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/documentation/localizations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/documentation/methods.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/documentation/table-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/donate.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/faq/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/getting-started/download.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/getting-started/grunt.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/getting-started/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/getting-started/whats-include.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/en/home/feature.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/documentation/column-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/documentation/events.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/documentation/localizations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/documentation/methods.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/documentation/table-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/donate.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/faq/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/getting-started/download.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/getting-started/grunt.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/getting-started/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/getting-started/whats-include.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/es/home/feature.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/documentation/column-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/documentation/events.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/documentation/localizations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/documentation/methods.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/documentation/table-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/donate.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/faq/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/getting-started/download.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/getting-started/grunt.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/getting-started/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/getting-started/whats-include.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_i18n/zh-cn/home/feature.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_includes/latest-release.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_includes/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_includes/social-buttons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_layouts/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_plugins/markdown-tag.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/_plugins/multiple-languages.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/css/docs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/css/sidenav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/customize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/ie-emulation-modes-warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/ie10-viewport-bug-workaround.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/ie8-responsive-file-warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/assets/js/sidenav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/data1/demo.response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/data2/demo.response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/data3/demo.response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/data4/demo.response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/data5/demo.response.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/data/extensions.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table-locale-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table-locale-all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/angular/bootstrap-table-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/angular/bootstrap-table-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/cookie/bootstrap-table-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/cookie/bootstrap-table-cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/copy-rows/bootstrap-table-copy-rows.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/editable/bootstrap-table-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/editable/bootstrap-table-editable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/export/bootstrap-table-export.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/export/bootstrap-table-export.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/filter-control/bootstrap-table-filter-control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/filter-control/bootstrap-table-filter-control.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/filter/bootstrap-table-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/filter/bootstrap-table-filter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/flat-json/bootstrap-table-flat-json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/flat-json/bootstrap-table-flat-json.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by-v2/bootstrap-table-group-by.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/group-by/bootstrap-table-group-by.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/key-events/bootstrap-table-key-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/key-events/bootstrap-table-key-events.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/mobile/bootstrap-table-mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/mobile/bootstrap-table-mobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multiple-search/bootstrap-table-multiple-search.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/resizable/bootstrap-table-resizable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/resizable/bootstrap-table-resizable.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/select2-filter/bootstrap-table-select2-filter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/toolbar/bootstrap-table-toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/extensions/toolbar/bootstrap-table-toolbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-af-ZA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-af-ZA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ar-SA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ar-SA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ca-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-cs-CZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-da-DK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-de-DE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-el-GR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-el-GR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-en-US.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-AR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-CR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-CR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-MX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-MX.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-NI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-NI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-SP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-es-SP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-et-EE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-et-EE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fa-IR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fr-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fr-BE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-fr-FR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-he-IL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-hr-HR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-hu-HU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-it-IT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ja-JP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ka-GE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ka-GE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ko-KR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ms-MY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ms-MY.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-nb-NO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-nl-NL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pl-PL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-pt-PT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ro-RO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ru-RU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-sk-SK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-sv-SE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-th-TH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-tr-TR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-uk-UA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ur-PK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-ur-PK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-vi-VN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/dist/locale/bootstrap-table-zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/documentation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/donate.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/examples.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/extensions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/getting-started.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/docs/sitemap.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/bootstrap-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/bootstrap-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/accent-neutralise/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/accent-neutralise/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/angular/bootstrap-table-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/auto-refresh/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/auto-refresh/bootstrap-table-auto-refresh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/auto-refresh/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/cookie/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/cookie/bootstrap-table-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/cookie/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/copy-rows/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/copy-rows/bootstrap-table-copy-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/copy-rows/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/editable/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/editable/bootstrap-table-editable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/editable/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/export/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/export/bootstrap-table-export.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/export/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter-control/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter-control/bootstrap-table-filter-control.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter-control/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter/bootstrap-table-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/filter/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/flat-json/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/flat-json/bootstrap-table-flat-json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/flat-json/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by-v2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by-v2/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by-v2/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by/bootstrap-table-group-by.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/group-by/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/i18n-enhance/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/i18n-enhance/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/key-events/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/key-events/bootstrap-table-key-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/key-events/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/mobile/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/mobile/bootstrap-table-mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/mobile/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multi-column-toggle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multi-column-toggle/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-search/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-search/bootstrap-table-multiple-search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-search/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-selection-row/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-selection-row/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-sort/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-sort/bootstrap-table-multiple-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-sort/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/natural-sorting/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/natural-sorting/bootstrap-table-natural-sorting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/natural-sorting/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/print/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/print/bootstrap-table-print.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-columns/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-columns/bootstrap-table-reorder-columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-columns/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-rows/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-rows/bootstrap-table-reorder-rows.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/reorder-rows/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/resizable/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/resizable/bootstrap-table-resizable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/resizable/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/select2-filter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/select2-filter/bootstrap-table-select2-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/select2-filter/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/sticky-header/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/sticky-header/bootstrap-table-sticky-header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/sticky-header/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/toolbar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/toolbar/bootstrap-table-toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/toolbar/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/tree-column/bootstrap-table-tree-column.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/tree-column/extension.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-af-ZA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ar-SA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-el-GR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-en-US.js.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-CL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-CR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-MX.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-NI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-es-SP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-et-EE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-fr-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-id-ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ka-GE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ms-MY.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-ur-PK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-uz-Latn-UZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/locale/bootstrap-table-zh-TW.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo" afterPath="$PROJECT_DIR$/demo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3b6a614e-2457-4535-bf6a-b5d314825faf.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/3b6a614e-2457-4535-bf6a-b5d314825faf.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js" afterPath="$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/content/gallery.html" afterPath="$PROJECT_DIR$/views/content/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/content/tables.html" afterPath="$PROJECT_DIR$/views/content/tables.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/dishController.go" afterPath="$PROJECT_DIR$/controllers/dishController.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/data1.json" afterPath="$PROJECT_DIR$/static/data/data1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/content/dish-manager.html" afterPath="$PROJECT_DIR$/views/content/dish-manager.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -600,69 +59,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="358" column="71" lean-forward="false" selection-start-line="358" selection-start-column="71" selection-end-line="358" selection-end-column="71" />
-              <folding>
-                <element signature="n#script#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#5;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#26081#26087#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/content/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-547">
-              <caret line="2838" column="89" lean-forward="false" selection-start-line="2838" selection-start-column="89" selection-end-line="2838" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstarp-table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/bootstarp-table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-808">
-              <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-              <folding>
-                <element signature="e#1227#1234#0" expanded="true" />
-                <element signature="e#2294#4686#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataTables.select.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="436" column="45" lean-forward="false" selection-start-line="436" selection-start-column="34" selection-end-line="436" selection-end-column="45" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dish-manager.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/content/dish-manager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2945">
-              <caret line="1750" column="34" lean-forward="false" selection-start-line="1750" selection-start-column="29" selection-end-line="1750" selection-end-column="34" />
+            <state relative-caret-position="803">
+              <caret line="1728" column="24" lean-forward="false" selection-start-line="1728" selection-start-column="24" selection-end-line="1728" selection-end-column="24" />
               <folding>
-                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#tr#3;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -692,6 +95,7 @@
                 <element signature="n#tr#21;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#td#0;n#tr#21;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#tr#22;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#85430#88112#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -700,49 +104,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.dataTables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net/js/jquery.dataTables.js">
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="13041" column="8" lean-forward="false" selection-start-line="13041" selection-start-column="8" selection-end-line="13041" selection-end-column="8" />
-              <folding>
-                <marker date="1468304732000" expanded="true" signature="114954:114979" ph="..." />
-                <marker date="1468304732000" expanded="true" signature="115201:115226" ph="..." />
-                <marker date="1468304732000" expanded="true" signature="424132:424140" ph="&amp;##x2026;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.dataTables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables/media/js/jquery.dataTables.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="8067" column="58" lean-forward="true" selection-start-line="8067" selection-start-column="58" selection-end-line="8067" selection-end-column="58" />
-              <folding>
-                <marker date="1468304732000" expanded="true" signature="114954:114979" ph="..." />
-                <marker date="1468304732000" expanded="true" signature="115201:115226" ph="..." />
-                <marker date="1468304732000" expanded="true" signature="424133:424141" ph="&amp;##x2026;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/ace-1.4/html/ajax/content/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3022" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="13" column="74" lean-forward="false" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/default.go">
+      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="145">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data1.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/data/data1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -763,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>si</find>
       <find>row</find>
       <find>display</find>
       <find>Search</find>
@@ -793,6 +178,7 @@
       <find>info</find>
       <find>Tab</find>
       <find>select-info</find>
+      <find>rows.</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/ace-1.4</replace>
@@ -840,8 +226,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql" />
         <option value="$PROJECT_DIR$/views/content/dish-manager.fxml" />
         <option value="$PROJECT_DIR$/routers/router.go" />
-        <option value="$PROJECT_DIR$/static/data/data1.json" />
-        <option value="$PROJECT_DIR$/controllers/dishController.go" />
         <option value="$PROJECT_DIR$/views/content/gallery.html" />
         <option value="$PROJECT_DIR$/views/bootstarp-table.html" />
         <option value="$PROJECT_DIR$/static/js/dish-manager.js" />
@@ -849,8 +233,10 @@
         <option value="$PROJECT_DIR$/views/content/tables.html" />
         <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/static/ace-1.4/components/datatables.net/js/jquery.dataTables.js" />
-        <option value="$PROJECT_DIR$/views/content/dish-manager.html" />
         <option value="$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js" />
+        <option value="$PROJECT_DIR$/static/data/data1.json" />
+        <option value="$PROJECT_DIR$/controllers/dishController.go" />
+        <option value="$PROJECT_DIR$/views/content/dish-manager.html" />
       </list>
     </option>
   </component>
@@ -865,10 +251,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="-11" />
-    <option name="width" value="1841" />
-    <option name="height" value="1092" />
+    <option name="x" value="81" />
+    <option name="y" value="-4" />
+    <option name="width" value="1839" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -1009,7 +395,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ace-1.4" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1029,44 +415,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ace-1.4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ace-1.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datatables.net-select" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataTables.select.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1721,12 +1069,12 @@
       <workItem from="1492848357789" duration="4951000" />
       <workItem from="1492997239752" duration="9159000" />
       <workItem from="1493102673519" duration="1386000" />
-      <workItem from="1493172044657" duration="22838000" />
+      <workItem from="1493172044657" duration="28871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119957000" />
+    <option name="totallyTimeSpent" value="125990000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1738,7 +1086,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="-11" width="1841" height="1092" extended-state="6" />
+    <frame x="81" y="-4" width="1839" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1752,7 +1100,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20504385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61403507" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64144737" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35115364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1797,7 +1145,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20504385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61403507" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64144737" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55263156" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35115364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5372807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2047,24 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/data1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#21#128#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -2131,14 +1461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/default.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -2176,7 +1498,7 @@
             <element signature="n#li#8;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#9;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#26081#26087#0" expanded="true" />
+            <element signature="e#26081#26087#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2216,13 +1538,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="3" column="2221" lean-forward="false" selection-start-line="3" selection-start-column="2221" selection-end-line="3" selection-end-column="2221" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="436" column="45" lean-forward="false" selection-start-line="436" selection-start-column="34" selection-end-line="436" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/bootstarp-table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715">
+          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding>
+            <element signature="e#1227#1234#0" expanded="false" />
+            <element signature="e#2294#4686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" column="74" lean-forward="false" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/content/dish-manager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2945">
-          <caret line="1750" column="34" lean-forward="false" selection-start-line="1750" selection-start-column="29" selection-end-line="1750" selection-end-column="34" />
+        <state relative-caret-position="803">
+          <caret line="1728" column="24" lean-forward="false" selection-start-line="1728" selection-start-column="24" selection-end-line="1728" selection-end-column="24" />
           <folding>
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#tr#3;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -2252,6 +1618,7 @@
             <element signature="n#tr#21;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#td#0;n#tr#21;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#tr#22;n#tbody#0;n#table#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#85430#88112#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2259,32 +1626,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.min.js">
+    <entry file="file://$PROJECT_DIR$/static/data/data1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="3" column="2221" lean-forward="false" selection-start-line="3" selection-start-column="2221" selection-end-line="3" selection-end-column="2221" />
+        <state relative-caret-position="62">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/bootstarp-table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-808">
-          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-          <folding>
-            <element signature="e#1227#1234#0" expanded="true" />
-            <element signature="e#2294#4686#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="436" column="45" lean-forward="false" selection-start-line="436" selection-start-column="34" selection-end-line="436" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
