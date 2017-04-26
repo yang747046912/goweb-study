@@ -11,4 +11,5 @@ func init() {
 	beego.Router("/user/password", &controllers.UserController{})
 	beego.Router("/user/register", &controllers.SignController{})
 	beego.Router("/main/view", &controllers.MainViewController{})
+	beego.Router("/examples/bootstrap_table/data",&controllers.DishController{})
 }

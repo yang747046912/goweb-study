@@ -438,14 +438,14 @@ function info ( api )
 	var add = function ( name, num ) {
 		output.append( $('<span class="select-item"/>').append( api.i18n(
 			'select.'+name+'s',
-			{ _: '%d '+name+'s selected', 0: '', 1: '1 '+name+' selected' },
+			{ _: '%d '+name+'选中', 0: '', 1: '1 '+name+' 选中' },
 			num
 		) ) );
 	};
 
-	add( 'row',    api.rows( { selected: true } ).flatten().length );
-	add( 'column', api.columns( { selected: true } ).flatten().length );
-	add( 'cell',   api.cells( { selected: true } ).flatten().length );
+	add( '行',    api.rows( { selected: true } ).flatten().length );
+	add( '列', api.columns( { selected: true } ).flatten().length );
+	add( '格',   api.cells( { selected: true } ).flatten().length );
 
 	// Internal knowledge of DataTables to loop over all information elements
 	$.each( ctx.aanFeatures.i, function ( i, el ) {
