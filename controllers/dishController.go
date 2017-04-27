@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"github.com/astaxie/beego/logs"
 	"encoding/json"
+	"net/url"
 )
 
 type DishController struct {
@@ -19,14 +20,20 @@ type jsonData struct {
 }
 
 type tatallData struct {
-	Total int `json:"total"`
+	RecordsTotal int `json:"recordsTotal"`
+	RecordsFiltered int `json:"recordsFiltered"`
+	Draw int `json:"draw"`
 	Rows[] jsonData `json:"data"`
 }
 func (this *DishController)Get() {
+	uri := this.Ctx.Input.URI()
+	logs.Debug(url.PathUnescape(uri))
 	bytes, _ := ReadAll("/home/yangcai/go/src/demo/static/data/data1.json")
 	//data := string(bytes)
+	 draw,_:=this.GetInt("draw", 1)
 	var  tatall tatallData
 	json.Unmarshal(bytes,&tatall)
+	tatall.Draw = draw
 	logs.Debug(tatall)
 	this.Data["json"] = tatall
 	this.ServeJSON()

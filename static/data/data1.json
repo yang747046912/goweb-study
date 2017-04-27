@@ -1,5 +1,7 @@
 {
-    "total": 200,
+    "draw": 1,
+    "recordsTotal":200,
+    "recordsFiltered": 200,
     "data": [
         {
             "id": 0,
