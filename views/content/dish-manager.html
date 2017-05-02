@@ -1,6 +1,6 @@
 <title>Tables - Ace Admin</title>
-<link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.dataTables.min.css"/>
-//<link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.bootstrap.css"/>
+<!--<link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.dataTables.min.css"/>-->
+<link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.bootstrap.css"/>
 <!-- ajax layout which only needs content area -->
 
 <!-- /.page-header -->
@@ -67,7 +67,8 @@
         "/static/ace-1.4/components/datatables.net-buttons/js/buttons.colVis.js",
         "/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js",
         "/static/ace-1.4/components/datatable.net-editor/js/dataTables.editor.js",
-         null];
+        "/static/ace-1.4/components/datatable.net-editor/js/editor.bootstrap.js",
+        null];
 
     $('.page-content-area').ace_ajax('loadScripts', scripts, function () {
         var editor = new $.fn.dataTable.Editor({
