@@ -264,35 +264,13 @@
 
                 {
                     extend: "create",
+                    "text":"<i class='ace-icon glyphicon glyphicon-plus red'></i><span class='hidden'>新增</span>",
                     editor: editor,
+                    "className": "btn btn-white btn-primary btn-bold",
                     formButtons: [
                         'Create',
                         {
                             label: 'Cance', fn: function () {
-                            this.close();
-                        }
-                        }
-                    ]
-                },
-                {
-                    extend: "edit",
-                    editor: editor,
-                    formButtons: [
-                        'Edit',
-                        {
-                            label: 'Cancel', fn: function () {
-                            this.close();
-                        }
-                        }
-                    ]
-                },
-                {
-                    extend: "remove",
-                    editor: editor,
-                    formButtons: [
-                        'Delete',
-                        {
-                            label: 'Cancel', fn: function () {
                             this.close();
                         }
                         }
