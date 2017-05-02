@@ -72,7 +72,7 @@
 
     $('.page-content-area').ace_ajax('loadScripts', scripts, function () {
         var editor = new $.fn.dataTable.Editor({
-            ajax: "/examples/bootstrap_table/data",
+            ajax: editAjaxData,
             table: "#dynamic-table",
             "idSrc": "id",
             fields: [{
@@ -99,7 +99,14 @@
             }
             ]
         });
-
+        editor.on('submitError', function (e, xhr, err, thrown, data) {
+            console.log(e)
+            console.log(xhr)
+            console.log(err)
+            console.log(thrown)
+            console.log(data)
+            this.error(xhr.responseText);
+        });
 
         //inline scripts related to this page
 
@@ -132,7 +139,7 @@
                             "<a class=\"blue\" href=\"#\">" +
                             "<i class=\"ace-icon fa fa-search-plus bigger-130\"></i>" +
                             "</a>" +
-                            "<a class=\"green\" href=\"#\">" +
+                            "<a id='green-edit' class=\"green\" href=\"#\">" +
                             "<i class=\"ace-icon fa fa-pencil bigger-130\"></i>" +
                             "</a>" +
                             "<a id='red-delete' class=\"red\" href=\"#\">" +
@@ -304,19 +311,7 @@
                 else $(this).tooltip({container: 'body', title: $(this).text()});
             });
         }, 500);
-
-
-        myTable.on('select', function (e, dt, type, index) {
-            if (type === 'row') {
-                $(myTable.row(index).node()).find('input:checkbox').prop('checked', true);
-            }
-        });
-        myTable.on('deselect', function (e, dt, type, index) {
-
-            if (type === 'row') {
-                $(myTable.row(index).node()).find('input:checkbox').prop('checked', false);
-            }
-        });
+        //删除
         myTable.on('click', '#red-delete', function (e) {
             e.preventDefault()
             editor.remove($(this).closest('tr'), {
@@ -325,6 +320,15 @@
                 buttons: 'Delete'
             });
         });
+        //修改
+        myTable.on('click', '#green-edit', function (e) {
+            e.preventDefault();
+            editor.edit($(this).closest('tr'), {
+                title: 'Edit record',
+                buttons: 'Update'
+            });
+        });
+
         myTable.on('click', '#pos-rel-checkbox', function (e) {
             e.preventDefault()
             var tr = $(this).closest('tr')
@@ -442,5 +446,40 @@
                 }
             )
         }
+
+
+        function editAjaxData(method, url, data, successCallback, errorCallback) {
+            console.log(data)
+            var putData = new Object()
+            var type
+            if (data.action == "create") {
+                type = "POST"
+            } else if (data.action == "remove") {
+                type = "DELETE"
+                $.each(data.data, function (id) {
+                    putData.id = id
+                })
+            } else if (data.action == "edit") {
+                type = "PUT"
+            }
+
+            $.ajax({
+                    type: type,
+                    url: "/examples/bootstrap_table/data",
+                    data: putData,
+                    cache: false,
+                    success: function (result) {
+                        setTimeout(function () {
+                            successCallback(result)
+                        }, 200)
+                    },
+                    error: function (XMLHttpRequest, textstatus, errorThrown) {
+                        errorCallback(textstatus)
+                    }
+                }
+            )
+        }
+
+
     });
 </script>

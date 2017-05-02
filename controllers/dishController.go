@@ -20,22 +20,41 @@ type jsonData struct {
 }
 
 type tatallData struct {
-	RecordsTotal int `json:"recordsTotal"`
+	RecordsTotal    int `json:"recordsTotal"`
 	RecordsFiltered int `json:"recordsFiltered"`
-	Draw int `json:"draw"`
-	Rows[] jsonData `json:"data"`
+	Draw            int `json:"draw"`
+	Rows            [] jsonData `json:"data"`
 }
+
 func (this *DishController)Get() {
 	uri := this.Ctx.Input.URI()
 	logs.Debug(url.PathUnescape(uri))
 	bytes, _ := ReadAll("/home/yangcai/go/src/demo/static/data/data1.json")
 	//data := string(bytes)
-	 draw,_:=this.GetInt("draw", 1)
-	var  tatall tatallData
-	json.Unmarshal(bytes,&tatall)
+	draw, _ := this.GetInt("draw", 1)
+	var tatall tatallData
+	json.Unmarshal(bytes, &tatall)
 	tatall.Draw = draw
 	logs.Debug(tatall)
 	this.Data["json"] = tatall
+	this.ServeJSON()
+}
+func (this *DishController)Post() {
+	logs.Debug("Post")
+	uri := this.Ctx.Input.URI()
+	logs.Debug(url.PathUnescape(uri))
+	this.ServeJSON()
+}
+
+func (this *DishController)Delete() {
+	logs.Debug("delete")
+	uri := this.Ctx.Input.URI()
+	logs.Debug(url.PathUnescape(uri))
+	type result struct {
+		Data [] string `json:"data"`
+	}
+
+	this.Data["json"] = &result{}
 	this.ServeJSON()
 }
 
