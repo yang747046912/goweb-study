@@ -74,6 +74,7 @@
         var editor = new $.fn.dataTable.Editor({
             ajax: "/examples/bootstrap_table/data",
             table: "#dynamic-table",
+            "idSrc": "id",
             fields: [{
                 label: "First name:",
                 name: "first_name"
@@ -134,7 +135,7 @@
                             "<a class=\"green\" href=\"#\">" +
                             "<i class=\"ace-icon fa fa-pencil bigger-130\"></i>" +
                             "</a>" +
-                            "<a class=\"red\" href=\"#\">" +
+                            "<a id='red-delete' class=\"red\" href=\"#\">" +
                             "<i class=\"ace-icon fa fa-trash-o bigger-130\"></i>" +
                             "</a>" +
                             "</div>" +
@@ -314,6 +315,8 @@
 
 
         myTable.on('select', function (e, dt, type, index) {
+            console.log("select" )
+            console.log(e)
             if (type === 'row') {
                 $(myTable.row(index).node()).find('input:checkbox').prop('checked', true);
             }
@@ -322,6 +325,15 @@
             if (type === 'row') {
                 $(myTable.row(index).node()).find('input:checkbox').prop('checked', false);
             }
+        });
+        myTable.on('click','#red-delete',function (e) {
+            console.log(e)
+            e.preventDefault()
+            editor.remove( $(this).closest('tr'), {
+                title: 'Delete record',
+                message: 'Are you sure you wish to remove this record?',
+                buttons: 'Delete'
+            } );
         });
 
 
