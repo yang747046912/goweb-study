@@ -438,23 +438,27 @@
             console.log(data.toJson)
             var putData = new Object()
             var type
+            var url
             if (data.action == "create") {
                 type = "POST"
-                $.each(data.data, function (key,value) {
+                $.each(data.data, function (key, value) {
                     putData = value
                 });
+                url = "/examples/bootstrap_table/data"
             } else if (data.action == "remove") {
                 type = "DELETE"
                 $.each(data.data, function (id) {
-                    putData.id = id
+                    url = "/examples/bootstrap_table/data/" + id
                 })
+
             } else if (data.action == "edit") {
                 type = "PUT"
+                url = "/examples/bootstrap_table/data"
             }
 
             $.ajax({
                     type: type,
-                    url: "/examples/bootstrap_table/data",
+                    url: url,
                     data: putData,
                     cache: false,
                     success: function (result) {

@@ -28,7 +28,8 @@
     </column>
     <column id="14" parent="8" name="dish_create_time">
       <Position>3</Position>
-      <DataType>date|0</DataType>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <column id="15" parent="8" name="dish_summary">
       <Position>4</Position>
@@ -37,7 +38,7 @@
     </column>
     <column id="16" parent="8" name="dish_modify_time">
       <Position>5</Position>
-      <DataType>date|0</DataType>
+      <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <index id="17" parent="8" name="category_name">

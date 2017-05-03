@@ -4,9 +4,8 @@ import (
 	"github.com/astaxie/beego"
 	"os"
 	"io/ioutil"
-	"github.com/astaxie/beego/logs"
-	"net/url"
 	"demo/models/dish"
+	"strconv"
 )
 
 type DishController struct {
@@ -85,13 +84,12 @@ func (this *DishController)Post() {
 }
 
 func (this *DishController)Delete() {
-	logs.Debug("delete")
-	uri := this.Ctx.Input.URI()
-	logs.Debug(url.PathUnescape(uri))
+	id:=this.Ctx.Input.Param(":id")
+	iid,_:= strconv.Atoi(id)
+	dish.Delete(iid)
 	type result struct {
 		Data [] string `json:"data"`
 	}
-
 	this.Data["json"] = &result{}
 	this.ServeJSON()
 }

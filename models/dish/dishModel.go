@@ -70,3 +70,9 @@ func Exist(colName string, value string) bool {
 	qs = qs.SetCond(con)
 	return qs.Exist()
 }
+
+func Delete(id int) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsCategoryDishes{})
+	qs.Filter("id", id).Delete()
+}
