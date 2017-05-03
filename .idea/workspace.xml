@@ -34,8 +34,8 @@
       <file leaf-file-name="dish-manager.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/content/dish-manager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+            <state relative-caret-position="531">
+              <caret line="269" column="27" lean-forward="false" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -1087,7 +1087,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187219000" />
+    <option name="totallyTimeSpent" value="187571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1605,8 +1605,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+        <state relative-caret-position="531">
+          <caret line="269" column="27" lean-forward="false" selection-start-line="269" selection-start-column="27" selection-end-line="269" selection-end-column="27" />
           <folding />
         </state>
       </provider>
