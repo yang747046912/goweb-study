@@ -33,16 +33,17 @@
                                     <span class="lbl"></span>
                                 </label>
                             </th>
-                            <th>Domain</th>
-                            <th>Price</th>
-                            <th class="hidden-480">Clicks</th>
-
+                            <th>编号</th>
+                            <th>名称</th>
+                            <th class="hidden-480">简介</th>
                             <th>
                                 <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
-                                Update
+                                创建时间
                             </th>
-                            <th class="hidden-480">Status</th>
-
+                            <th class="hidden-480">
+                                <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
+                                修改时间
+                            </th>
                             <th></th>
                         </tr>
                         </thead>
@@ -76,26 +77,11 @@
             table: "#dynamic-table",
             "idSrc": "id",
             fields: [{
-                label: "First name:",
-                name: "first_name"
+                label: "分类名称:",
+                name: "category_name"
             }, {
-                label: "Last name:",
-                name: "last_name"
-            }, {
-                label: "Position:",
-                name: "position"
-            }, {
-                label: "Office:",
-                name: "office"
-            }, {
-                label: "Extension:",
-                name: "extn"
-            }, {
-                label: "Start date:",
-                name: "start_date"
-            }, {
-                label: "Salary:",
-                name: "salary"
+                label: "简介:",
+                name: "dish_summary"
             }
             ]
         });
@@ -449,11 +435,14 @@
 
 
         function editAjaxData(method, url, data, successCallback, errorCallback) {
-            console.log(data)
+            console.log(data.toJson)
             var putData = new Object()
             var type
             if (data.action == "create") {
                 type = "POST"
+                $.each(data.data, function (key,value) {
+                    putData = value
+                });
             } else if (data.action == "remove") {
                 type = "DELETE"
                 $.each(data.data, function (id) {
@@ -470,6 +459,7 @@
                     cache: false,
                     success: function (result) {
                         setTimeout(function () {
+                            console.log(result)
                             successCallback(result)
                         }, 200)
                     },
