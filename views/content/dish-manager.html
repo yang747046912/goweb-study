@@ -326,7 +326,16 @@
             }
         })
 
-
+        myTable.on( 'select', function ( e, dt, type, index ) {
+            if ( type === 'row' ) {
+                $( myTable.row( index ).node() ).find('input:checkbox').prop('checked', true);
+            }
+        } );
+        myTable.on( 'deselect', function ( e, dt, type, index ) {
+            if ( type === 'row' ) {
+                $( myTable.row( index ).node() ).find('input:checkbox').prop('checked', false);
+            }
+        } );
         /////////////////////////////////
         //table checkboxes
         $('th input[type=checkbox], td input[type=checkbox]').prop('checked', false);
