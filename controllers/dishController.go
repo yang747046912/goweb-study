@@ -5,7 +5,6 @@ import (
 	"os"
 	"io/ioutil"
 	"github.com/astaxie/beego/logs"
-	"encoding/json"
 	"net/url"
 	"demo/models/dish"
 )
@@ -14,17 +13,11 @@ type DishController struct {
 	beego.Controller
 }
 
-type jsonData struct {
-	Id    int `json:"id"`
-	Name  string `json:"name"`
-	Price string `json:"price"`
-}
-
 type tatallData struct {
-	RecordsTotal    int `json:"recordsTotal"`
-	RecordsFiltered int `json:"recordsFiltered"`
+	RecordsTotal    int64 `json:"recordsTotal"`
+	RecordsFiltered int64 `json:"recordsFiltered"`
 	Draw            int `json:"draw"`
-	Rows            [] jsonData `json:"data"`
+	Rows            [] dish.AsCategoryDishes `json:"data"`
 }
 
 type errorsField struct {
@@ -38,15 +31,21 @@ type reslutData struct {
 }
 
 func (this *DishController)Get() {
-	uri := this.Ctx.Input.URI()
-	logs.Debug(url.PathUnescape(uri))
-	bytes, _ := ReadAll("/home/yangcai/go/src/demo/static/data/data1.json")
-	//data := string(bytes)
 	draw, _ := this.GetInt("draw", 1)
+	search := this.GetString("search", "")
+	column := this.GetString("column", "")
+	dir := this.GetString("dir", "")
+	pageSize, _ := this.GetInt("pageSize", 10)
+	pageNo, _ := this.GetInt("pageNo", 1)
+	categoryDishes, err := dish.GetDishCategories(search, column, dir, pageSize, pageNo)
 	var tatall tatallData
-	json.Unmarshal(bytes, &tatall)
 	tatall.Draw = draw
-	logs.Debug(tatall)
+	if err == nil {
+		tatall.Rows = categoryDishes
+	}
+	count := dish.GetCount()
+	tatall.RecordsFiltered = count
+	tatall.RecordsTotal = count
 	this.Data["json"] = tatall
 	this.ServeJSON()
 }
@@ -68,7 +67,7 @@ func (this *DishController)Post() {
 		return
 	}
 
-	dishExit:=dish.Exist("category_name",category_name)
+	dishExit := dish.Exist("category_name", category_name)
 	if dishExit {
 		errField := errorsField{"category_name", "菜品名称已经存在"}
 		result.FieldErrors = append(result.FieldErrors, errField)
@@ -76,7 +75,7 @@ func (this *DishController)Post() {
 		this.ServeJSON()
 		return
 	}
-	success:= dish.CreateDish(category_name,dish_summary)
+	success := dish.CreateDish(category_name, dish_summary)
 	if !success {
 		errField := errorsField{"category_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)

@@ -32,6 +32,26 @@ func CreateDish(categoryName string, dishSummary string) bool {
 	return true
 }
 
+func GetDishCategories(search string, column string, dir string, pageSize int, pageNo int) ([]AsCategoryDishes, error) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsCategoryDishes{})
+	if len(search) != 0 {
+		qs = qs.Filter("category_name__contains", search)
+	}
+	if len(column) != 0&& len(dir) != 0 {
+		if dir == "asc" {
+			qs = qs.OrderBy(column)
+		} else if dir == "desc" {
+			qs = qs.OrderBy("-" + column)
+		}
+	}
+	offset := (pageNo - 1) * pageSize
+	qs = qs.Limit(pageSize, offset)
+	var categoryDishes []AsCategoryDishes
+	_, err := qs.All(&categoryDishes)
+	return categoryDishes, err
+}
+
 func GetCount() int64 {
 	o := orm.NewOrm()
 	qs := o.QueryTable(&AsCategoryDishes{})
