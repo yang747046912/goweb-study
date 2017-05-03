@@ -117,8 +117,20 @@
                         {"data": "id"},
                         {"data": "category_name"},
                         {"data": "dish_summary"},
-                        {"data": "dish_create_time"},
-                        {"data": "dish_modify_time"},
+                        {
+                            "data": "dish_create_time",
+                            "render": function (data, type, full, meta) {
+                                var dateTIme = new Date(data)
+                                return dateTIme.format("yyyy-MM-dd hh:mm:ss")
+                            }
+                        },
+                        {
+                            "data": "dish_modify_time",
+                            "render": function (data, type, full, meta) {
+                                var dateTIme = new Date(data)
+                                return dateTIme.format("yyyy-MM-dd hh:mm:ss")
+                            }
+                        },
                         {
                             "bSortable": false,
                             "defaultContent": " <div class=\"hidden-sm hidden-xs action-buttons\">" +
@@ -326,16 +338,16 @@
             }
         })
 
-        myTable.on( 'select', function ( e, dt, type, index ) {
-            if ( type === 'row' ) {
-                $( myTable.row( index ).node() ).find('input:checkbox').prop('checked', true);
+        myTable.on('select', function (e, dt, type, index) {
+            if (type === 'row') {
+                $(myTable.row(index).node()).find('input:checkbox').prop('checked', true);
             }
-        } );
-        myTable.on( 'deselect', function ( e, dt, type, index ) {
-            if ( type === 'row' ) {
-                $( myTable.row( index ).node() ).find('input:checkbox').prop('checked', false);
+        });
+        myTable.on('deselect', function (e, dt, type, index) {
+            if (type === 'row') {
+                $(myTable.row(index).node()).find('input:checkbox').prop('checked', false);
             }
-        } );
+        });
         /////////////////////////////////
         //table checkboxes
         $('th input[type=checkbox], td input[type=checkbox]').prop('checked', false);
