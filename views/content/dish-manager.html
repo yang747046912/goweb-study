@@ -265,10 +265,11 @@
                     "text": "<i class='ace-icon glyphicon glyphicon-plus red'></i><span class='hidden'>新增</span>",
                     editor: editor,
                     "className": "btn btn-white btn-primary btn-bold",
+                    title:'aaaa',
                     formButtons: [
-                        'Create',
+                        '增加',
                         {
-                            label: 'Cance', fn: function () {
+                            label: '取消', fn: function () {
                             this.close();
                         }
                         }
@@ -313,17 +314,17 @@
         myTable.on('click', '#red-delete', function (e) {
             e.preventDefault()
             editor.remove($(this).closest('tr'), {
-                title: 'Delete record',
-                message: 'Are you sure you wish to remove this record?',
-                buttons: 'Delete'
+                title: '删除菜品分类',
+                message: '确定要删除吗?',
+                buttons: '确定'
             });
         });
         //修改
         myTable.on('click', '#green-edit', function (e) {
             e.preventDefault();
             editor.edit($(this).closest('tr'), {
-                title: 'Edit record',
-                buttons: 'Update'
+                title: '修改菜品分类',
+                buttons: '确定'
             });
         });
 
