@@ -114,7 +114,13 @@
                             "searchable": false,
                             "defaultContent": "<label id='pos-rel-checkbox' class=\"pos-rel\"><input type=\"checkbox\" class=\"ace\"/><span class=\"lbl\"></span></label>"
                         },
-                        {"data": "id"},
+                        {
+                            "data": null,
+                            "className": "center",
+                            "searchable": false,
+                            "orderable": false,
+                            "defaultContent": ""
+                        },
                         {"data": "category_name"},
                         {"data": "dish_summary"},
                         {
@@ -181,17 +187,22 @@
                     //"bProcessing": true,
                     //"bServerSide": true,
                     //"sAjaxSource": "http://127.0.0.1/table.php"	,
-
                     //,
                     //"sScrollY": "200px",
                     //"bPaginate": false,
-
                     //"sScrollX": "100%",
                     //"sScrollXInner": "120%",
                     //"bScrollCollapse": true,
                     //Note: if you are applying horizontal scrolling (sScrollX) on a ".table-bordered"
                     //you may want to wrap the table inside a "div.dataTables_borderWrap" element
                     //"iDisplayLength": 50
+                    fnDrawCallback: function () {
+                        var api = this.api()
+                        var startindex = api.context[0]._iDisplayStart
+                        api.column(1).nodes().each(function (cell, i) {
+                            cell.innerHTML = startindex + i + 1
+                        })
+                    },
                     select: false,
                     language: {
                         "sProcessing": "处理中...",
@@ -265,7 +276,7 @@
                     "text": "<i class='ace-icon glyphicon glyphicon-plus red'></i><span class='hidden'>新增</span>",
                     editor: editor,
                     "className": "btn btn-white btn-primary btn-bold",
-                    formTitle:"<h3>创建新菜品分类</h3>",
+                    formTitle: "<h3>创建新菜品分类</h3>",
                     formButtons: [
                         '确定',
                         {
@@ -476,6 +487,10 @@
             } else if (data.action == "edit") {
                 type = "PUT"
                 url = "/examples/bootstrap_table/data"
+                $.each(data.data, function (key, value) {
+                    console.log(key)
+                    console.log(value)
+                })
             }
 
             $.ajax({
