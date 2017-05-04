@@ -417,7 +417,7 @@
             }
             $.ajax({
                     type: "get",
-                    url: "/examples/bootstrap_table/data",
+                    url: "/dish/category/data",
                     data: putData,
                     cache: false,
                     success: function (result) {
@@ -443,18 +443,18 @@
                 $.each(data.data, function (key, value) {
                     putData = value
                 });
-                url = "/examples/bootstrap_table/data"
+                url = "/dish/category/data"
             } else if (data.action == "remove") {
                 type = "DELETE"
                 $.each(data.data, function (id) {
-                    url = "/examples/bootstrap_table/data/" + id
+                    url = "/dish/category/data/" + id
                 })
 
             } else if (data.action == "edit") {
                 type = "PUT"
-                url = "/examples/bootstrap_table/data"
+                url = "/dish/category/data"
                 $.each(data.data, function (key, value) {
-                    url = "/examples/bootstrap_table/data/" + key
+                    url = "/dish/category/data/" + key
                     putData = value
                 })
             }
