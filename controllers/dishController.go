@@ -131,7 +131,8 @@ func (this *DishController)Put() {
 
 	id := this.Ctx.Input.Param(":id")
 	iid, _ := strconv.Atoi(id)
-	dish.Update(iid, category_name, dish_summary)
+	category := dish.Update(iid, category_name, dish_summary)
+	result.Data = append(result.Data, category)
 	this.Data["json"] = result
 	this.ServeJSON()
 }
