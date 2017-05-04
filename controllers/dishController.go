@@ -84,8 +84,8 @@ func (this *DishController)Post() {
 }
 
 func (this *DishController)Delete() {
-	id:=this.Ctx.Input.Param(":id")
-	iid,_:= strconv.Atoi(id)
+	id := this.Ctx.Input.Param(":id")
+	iid, _ := strconv.Atoi(id)
 	dish.Delete(iid)
 	type result struct {
 		Data [] string `json:"data"`
@@ -101,4 +101,37 @@ func ReadAll(filePth string) ([]byte, error) {
 		return nil, err
 	}
 	return ioutil.ReadAll(f)
+}
+
+func (this *DishController)Put() {
+	var result reslutData
+	category_name := this.GetString("category_name", "")
+	dish_summary := this.GetString("dish_summary", "")
+	if len(category_name) < 3 {
+		errField := errorsField{"category_name", "菜品名称必须长度需大于2"}
+		result.FieldErrors = append(result.FieldErrors, errField)
+	}
+	if len(dish_summary) < 3 {
+		errField := errorsField{"dish_summary", "菜品简介必须长度需大于2"}
+		result.FieldErrors = append(result.FieldErrors, errField)
+	}
+	if len(result.FieldErrors) != 0 {
+		this.Data["json"] = result
+		this.ServeJSON()
+		return
+	}
+	exit := dish.Exist("category_name", category_name)
+	if exit {
+		errField := errorsField{"category_name", "菜品名称已经存在"}
+		result.FieldErrors = append(result.FieldErrors, errField)
+		this.Data["json"] = result
+		this.ServeJSON()
+		return
+	}
+
+	id := this.Ctx.Input.Param(":id")
+	iid, _ := strconv.Atoi(id)
+	dish.Update(iid, category_name, dish_summary)
+	this.Data["json"] = result
+	this.ServeJSON()
 }

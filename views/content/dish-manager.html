@@ -488,8 +488,8 @@
                 type = "PUT"
                 url = "/examples/bootstrap_table/data"
                 $.each(data.data, function (key, value) {
-                    console.log(key)
-                    console.log(value)
+                    url = "/examples/bootstrap_table/data/" + key
+                    putData = value
                 })
             }
 

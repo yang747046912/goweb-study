@@ -76,3 +76,10 @@ func Delete(id int) {
 	qs := o.QueryTable(&AsCategoryDishes{})
 	qs.Filter("id", id).Delete()
 }
+
+func Update(id int, categoryName string, dishSummary string) {
+	var dish = AsCategoryDishes{Id:id, CategoryName:categoryName,
+		DishSummary:dishSummary, DishModifyTime:time.Now()}
+	o := orm.NewOrm()
+	o.Update(&dish, "category_name", "dish_summary", "dish_modify_time")
+}
