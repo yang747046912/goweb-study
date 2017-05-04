@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd55df67-c8e5-4318-a2f2-b993c22e735d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/blank.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/content-slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/dropzone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/error-404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/error-500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/form-elements-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/form-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/form-wizard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/inbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/jqgrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/nestable-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/pricing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/treeview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/widgets.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content/wysiwyg.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/dish/dishModel.go" afterPath="$PROJECT_DIR$/models/dish/dishCategoryModel.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/dish/dishModel.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo" afterPath="$PROJECT_DIR$/demo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3b6a614e-2457-4535-bf6a-b5d314825faf.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/3b6a614e-2457-4535-bf6a-b5d314825faf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/content/dish-manager.html" afterPath="$PROJECT_DIR$/views/content/dish-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/dishController.go" afterPath="$PROJECT_DIR$/controllers/dishController.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/dish/dishCategoryModel.go" afterPath="$PROJECT_DIR$/models/dish/dishCategoryModel.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,24 +88,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql">
+      <file leaf-file-name="dishCategoryModel.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/dish/dishCategoryModel.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#88#346#0" expanded="false" />
+                <element signature="n#!!block;n#GetDishCategories#0" expanded="false" />
+                <element signature="n#!!block;n#GetDishCategoryCount#0" expanded="false" />
+                <element signature="n#!!block;n#DeleteDishCategory#0" expanded="false" />
+                <element signature="n#!!block;n#UpdateDishCategory#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cache.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/cache.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1767">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_demo.as_images_dishes" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_images_dishes">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
+      <file leaf-file-name="file.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/file.go">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -146,54 +124,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console_12.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_12.sql">
+      <file leaf-file-name="httplib.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/httplib/httplib.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dishCategoryModel.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/dish/dishCategoryModel.go">
+      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/redis/redis.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="79" column="77" lean-forward="false" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
+            <state relative-caret-position="-651">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dishModel.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/dish/dishModel.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#88#346#0" expanded="false" />
-                <element signature="n#!!block;n#init#0" expanded="false" />
-                <element signature="n#!!block;n#CreateDish#0" expanded="false" />
-                <element signature="n#!!block;n#GetDishCategories#0" expanded="false" />
-                <element signature="n#!!block;n#GetCount#0" expanded="false" />
-                <element signature="n#!!block;n#Exist#0" expanded="false" />
-                <element signature="n#!!block;n#Delete#0" expanded="false" />
-                <element signature="n#!!block;n#Update#0" expanded="false" />
+                <element signature="e#14#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/main.html">
+      <file leaf-file-name="console_13.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_13.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="99" column="77" lean-forward="false" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
-              <folding>
-                <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dish-category-manager.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/content/dish-category-manager.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="52">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="10" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -309,13 +286,14 @@
         <option value="dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_category_dishes" />
         <option value="$PROJECT_DIR$/initial/sql/sql.go" />
         <option value="$PROJECT_DIR$/static/js/common.js" />
-        <option value="$PROJECT_DIR$/models/dish/dishModel.go" />
         <option value="$PROJECT_DIR$/controllers/dishController.go" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql" />
         <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/views/content/dish-category-manager.html" />
         <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/views/content/dish-manager.html" />
+        <option value="$PROJECT_DIR$/models/dish/dishCategoryModel.go" />
+        <option value="$PROJECT_DIR$/models/dish/dishModel.go" />
       </list>
     </option>
   </component>
@@ -419,6 +397,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1010,12 +1002,12 @@
       <workItem from="1493718101112" duration="7440000" />
       <workItem from="1493779594703" duration="12104000" />
       <workItem from="1493861348302" duration="6519000" />
-      <workItem from="1493869557929" duration="5384000" />
+      <workItem from="1493869557929" duration="6136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200318000" />
+    <option name="totallyTimeSpent" value="201070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1045,8 +1037,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53070176" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27349466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25717503" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27349466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25717503" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1065,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25717503" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25717503" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1086,9 +1078,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20504385" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4243421" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4243421" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53070176" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27349466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27349466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5361842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1129,39 +1121,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/content/buttons.html" />
-    <entry file="file://$PROJECT_DIR$/views/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2066">
-          <caret line="291" column="39" lean-forward="false" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/content/tables.html" />
-    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/bootstrap-table/src/extensions/multiple-selection-row/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="682">
-            <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables/media/js/jquery.dataTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="8067" column="58" lean-forward="true" selection-start-line="8067" selection-start-column="58" selection-end-line="8067" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/ace-1.4/components/datatables.net/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -1360,6 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,16 +1366,6 @@
         <state relative-caret-position="4960">
           <caret line="164" column="8" lean-forward="false" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3968">
-          <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
-          <folding>
-            <element signature="e#21#109#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,19 +1460,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="134" column="50" lean-forward="false" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1767">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/httplib/httplib.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/redis/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_13.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/dish/dishCategoryModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="79" column="77" lean-forward="false" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
+        <state relative-caret-position="186">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#88#346#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#CreateDish#0" expanded="false" />
             <element signature="n#!!block;n#GetDishCategories#0" expanded="false" />
-            <element signature="n#!!block;n#GetCount#0" expanded="false" />
-            <element signature="n#!!block;n#Exist#0" expanded="false" />
-            <element signature="n#!!block;n#Delete#0" expanded="false" />
-            <element signature="n#!!block;n#Update#0" expanded="false" />
+            <element signature="n#!!block;n#GetDishCategoryCount#0" expanded="false" />
+            <element signature="n#!!block;n#DeleteDishCategory#0" expanded="false" />
+            <element signature="n#!!block;n#UpdateDishCategory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dish/dishModel.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -42,7 +42,7 @@ func (this *DishController)Get() {
 	if err == nil {
 		tatall.Rows = categoryDishes
 	}
-	count := dish.GetCount()
+	count := dish.GetDishCategoryCount()
 	tatall.RecordsFiltered = count
 	tatall.RecordsTotal = count
 	this.Data["json"] = tatall
@@ -66,7 +66,7 @@ func (this *DishController)Post() {
 		return
 	}
 
-	dishExit := dish.Exist("category_name", category_name)
+	dishExit := dish.ExistDishCategory("category_name", category_name)
 	if dishExit {
 		errField := errorsField{"category_name", "菜品名称已经存在"}
 		result.FieldErrors = append(result.FieldErrors, errField)
@@ -74,7 +74,7 @@ func (this *DishController)Post() {
 		this.ServeJSON()
 		return
 	}
-	success := dish.CreateDish(category_name, dish_summary)
+	success := dish.CreateDishCategory(category_name, dish_summary)
 	if !success {
 		errField := errorsField{"category_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)
@@ -86,7 +86,7 @@ func (this *DishController)Post() {
 func (this *DishController)Delete() {
 	id := this.Ctx.Input.Param(":id")
 	iid, _ := strconv.Atoi(id)
-	dish.Delete(iid)
+	dish.DeleteDishCategory(iid)
 	type result struct {
 		Data [] string `json:"data"`
 	}
@@ -120,7 +120,7 @@ func (this *DishController)Put() {
 		this.ServeJSON()
 		return
 	}
-	exit := dish.Exist("category_name", category_name)
+	exit := dish.ExistDishCategory("category_name", category_name)
 	if exit {
 		errField := errorsField{"category_name", "菜品名称已经存在"}
 		result.FieldErrors = append(result.FieldErrors, errField)
@@ -131,7 +131,7 @@ func (this *DishController)Put() {
 
 	id := this.Ctx.Input.Param(":id")
 	iid, _ := strconv.Atoi(id)
-	category := dish.Update(iid, category_name, dish_summary)
+	category := dish.UpdateDishCategory(iid, category_name, dish_summary)
 	result.Data = append(result.Data, category)
 	this.Data["json"] = result
 	this.ServeJSON()

@@ -17,7 +17,7 @@ func init() {
 	orm.RegisterModel(new(AsCategoryDishes))
 }
 
-func CreateDish(categoryName string, dishSummary string) bool {
+func CreateDishCategory(categoryName string, dishSummary string) bool {
 	o := orm.NewOrm()
 	var dishCategory AsCategoryDishes
 	dishCategory.CategoryName = categoryName
@@ -52,7 +52,7 @@ func GetDishCategories(search string, column string, dir string, pageSize int, p
 	return categoryDishes, err
 }
 
-func GetCount() int64 {
+func GetDishCategoryCount() int64 {
 	o := orm.NewOrm()
 	qs := o.QueryTable(&AsCategoryDishes{})
 	num, err := qs.Count()
@@ -62,7 +62,7 @@ func GetCount() int64 {
 	return num
 }
 
-func Exist(colName string, value string) bool {
+func ExistDishCategory(colName string, value string) bool {
 	o := orm.NewOrm()
 	qs := o.QueryTable(&AsCategoryDishes{})
 	con := orm.NewCondition()
@@ -71,13 +71,13 @@ func Exist(colName string, value string) bool {
 	return qs.Exist()
 }
 
-func Delete(id int) {
+func DeleteDishCategory(id int) {
 	o := orm.NewOrm()
 	qs := o.QueryTable(&AsCategoryDishes{})
 	qs.Filter("id", id).Delete()
 }
 
-func Update(id int, categoryName string, dishSummary string) AsCategoryDishes {
+func UpdateDishCategory(id int, categoryName string, dishSummary string) AsCategoryDishes {
 	var dish = AsCategoryDishes{Id:id, CategoryName:categoryName,
 		DishSummary:dishSummary, DishModifyTime:time.Now()}
 	o := orm.NewOrm()
