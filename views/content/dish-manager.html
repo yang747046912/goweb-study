@@ -79,13 +79,30 @@
             ajax: editAjaxData,
             table: "#dynamic-table",
             "idSrc": "id",
-            fields: [{
-                label: "分类名称:",
-                name: "category_name"
-            }, {
-                label: "简介:",
-                name: "dish_summary"
-            }
+            fields: [
+                {
+                    label: "名称:",
+                    name: "dish_name"
+                }, {
+                    label: "简介:",
+                    name: "dish_description"
+                }, {
+                    label: "单价:",
+                    name: "dish_price"
+                }, {
+                    label: "单位:",
+                    name: "dish_unit"
+                }, {
+                    label: "所属类别:",
+                    name: "dish_category_id",
+                    type:"select",
+                    placeholder: "请选择类别1",
+                    options:{{.options}},
+                    optionsPair: {
+                        label: 'name',
+                        value: 'id'
+                    }
+                }
             ]
         });
         editor.on('submitError', function (e, xhr, err, thrown, data) {
@@ -124,11 +141,14 @@
                             "orderable": false,
                             "defaultContent": ""
                         },
-                        {"data": "category_name"},
-                        {"data": "dish_summary"},
-                        {"data": null},
-                        {"data": null},
-                        {"data": null},
+                        {"data": "dish_name"},
+                        {"data": "dish_description"},
+                        {"data": "dish_price"},
+                        {
+                            "data": "dish_unit",
+                            "orderable": false
+                        },
+                        {"data": "dish_category_id"},
                         {
                             "data": "dish_create_time",
                             "render": function (data, type, full, meta) {
@@ -140,6 +160,7 @@
                             "data": "dish_modify_time",
                             "render": function (data, type, full, meta) {
                                 var dateTIme = new Date(data)
+
                                 return dateTIme.format("yyyy-MM-dd hh:mm:ss")
                             }
                         },

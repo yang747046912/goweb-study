@@ -8,9 +8,9 @@ import (
 type AsCategoryDishes struct {
 	Id             int `json:"id"`
 	CategoryName   string `json:"category_name"`
-	DishCreateTime time.Time        `json:"dish_create_time"`
-	DishSummary    string        `json:"dish_summary"`
-	DishModifyTime time.Time        `json:"dish_modify_time"`
+	DishCreateTime time.Time        `json:"dish_create_time,omitempty"`
+	DishSummary    string        `json:"dish_summary,omitempty"`
+	DishModifyTime time.Time        `json:"dish_modify_time,omitempty"`
 }
 
 func init() {
@@ -47,6 +47,14 @@ func GetDishCategories(search string, column string, dir string, pageSize int, p
 	}
 	offset := (pageNo - 1) * pageSize
 	qs = qs.Limit(pageSize, offset)
+	var categoryDishes []AsCategoryDishes
+	_, err := qs.All(&categoryDishes)
+	return categoryDishes, err
+}
+
+func GetAllDishCateGories() ([]AsCategoryDishes, error) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsCategoryDishes{})
 	var categoryDishes []AsCategoryDishes
 	_, err := qs.All(&categoryDishes)
 	return categoryDishes, err

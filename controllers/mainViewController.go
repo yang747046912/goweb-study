@@ -4,6 +4,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"fmt"
+	"demo/models/dish"
 )
 
 type MainViewController struct {
@@ -21,5 +22,22 @@ func (this *MainViewController)Get() {
 	}
 	tpl := fmt.Sprintf("content/%s.html", page)
 	logs.Debug(tpl)
+	if page == "dish-manager" {
+		categoryDishes, err := dish.GetAllDishCateGories()
+		if err == nil {
+			type outData struct {
+				ID   int`json:"id"`
+				Name string`json:"name"`
+			}
+			var outDatas [] outData
+			for _, value := range categoryDishes {
+				var outTmp outData
+				outTmp.ID = value.Id
+				outTmp.Name = value.CategoryName
+				outDatas = append(outDatas, outTmp)
+			}
+			this.Data["options"] = &outDatas
+		}
+	}
 	this.TplName = tpl
 }
