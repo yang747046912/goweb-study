@@ -96,7 +96,7 @@
                     label: "所属类别:",
                     name: "dish_category_id",
                     type:"select",
-                    placeholder: "请选择类别1",
+                    placeholder: "请选择所属类别",
                     options:{{.options}},
                     optionsPair: {
                         label: 'name',
@@ -148,7 +148,20 @@
                             "data": "dish_unit",
                             "orderable": false
                         },
-                        {"data": "dish_category_id"},
+                        {"data": "dish_category_id",
+                            "render":function (data, type, full, meta) {
+                                var types = {{.options}}
+                                var  result ="所属类别不存在"
+                                $.each(types, function (key, value) {
+                                    console.log(value);
+                                    console.log("data "+data);
+                                    if (data==value.id){
+                                        result=  value.name;
+                                    }
+                                })
+                               return  result
+                            }
+                        },
                         {
                             "data": "dish_create_time",
                             "render": function (data, type, full, meta) {
@@ -269,7 +282,7 @@
                     "text": "<i class='ace-icon glyphicon glyphicon-plus red'></i><span class='hidden'>新增</span>",
                     editor: editor,
                     "className": "btn btn-white btn-primary btn-bold",
-                    formTitle: "<h3>创建新菜品分类</h3>",
+                    formTitle: "<h3>创建新菜品</h3>",
                     formButtons: [
                         '确定',
                         {
@@ -318,7 +331,7 @@
         myTable.on('click', '#red-delete', function (e) {
             e.preventDefault()
             editor.remove($(this).closest('tr'), {
-                title: '删除菜品分类',
+                title: '删除菜品',
                 message: '确定要删除吗?',
                 buttons: '确定'
             });
@@ -327,7 +340,7 @@
         myTable.on('click', '#green-edit', function (e) {
             e.preventDefault();
             editor.edit($(this).closest('tr'), {
-                title: '修改菜品分类',
+                title: '修改菜品',
                 buttons: '确定'
             });
         });

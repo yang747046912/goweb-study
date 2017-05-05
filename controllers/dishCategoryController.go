@@ -118,7 +118,14 @@ func (this *DishCategoryController)Put() {
 
 	id := this.Ctx.Input.Param(":id")
 	iid, _ := strconv.Atoi(id)
-	category := dish.UpdateDishCategory(iid, category_name, dish_summary)
+	category, err := dish.UpdateDishCategory(iid, category_name, dish_summary)
+	if err != nil {
+		errField := errorsField{"category_name", "系统错误"}
+		result.FieldErrors = append(result.FieldErrors, errField)
+		this.Data["json"] = result
+		this.ServeJSON()
+		return
+	}
 	result.Data = append(result.Data, category)
 	this.Data["json"] = result
 	this.ServeJSON()

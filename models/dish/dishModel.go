@@ -71,3 +71,25 @@ func ExistDishes(colName string, value string) bool {
 	qs = qs.SetCond(con)
 	return qs.Exist()
 }
+
+func DeleteDish(id int) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsDishes{})
+	qs.Filter("id", id).Delete()
+}
+
+func UpdateDish(id int, categoryName string, dishSummary string, dishPrice float64, dish_unit string, dish_category_id int) (AsDishes, error) {
+	var dish = AsDishes{Id:id, DishName:categoryName,
+		DishDescription:dishSummary,
+		DishPrice:dishPrice,
+		DishUnit:dish_unit,
+		DishCategoryId:dish_category_id,
+		DishModifyTime:time.Now()}
+	o := orm.NewOrm()
+	_, err := o.Update(&dish, "dish_name", "dish_description", "dish_price", "dish_unit", "dish_category_id", "dish_modify_time")
+	if err != nil {
+		return AsDishes{}, err
+	}
+	o.Read(&dish)
+	return dish, nil
+}

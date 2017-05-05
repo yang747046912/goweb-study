@@ -85,11 +85,14 @@ func DeleteDishCategory(id int) {
 	qs.Filter("id", id).Delete()
 }
 
-func UpdateDishCategory(id int, categoryName string, dishSummary string) AsCategoryDishes {
+func UpdateDishCategory(id int, categoryName string, dishSummary string) (AsCategoryDishes, error) {
 	var dish = AsCategoryDishes{Id:id, CategoryName:categoryName,
 		DishSummary:dishSummary, DishModifyTime:time.Now()}
 	o := orm.NewOrm()
-	o.Update(&dish, "category_name", "dish_summary", "dish_modify_time")
+	_, err := o.Update(&dish, "category_name", "dish_summary", "dish_modify_time")
+	if err != nil {
+		return AsCategoryDishes{}, err
+	}
 	o.Read(&dish)
-	return dish
+	return dish, nil
 }
