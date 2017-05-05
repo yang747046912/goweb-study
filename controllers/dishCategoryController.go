@@ -51,11 +51,11 @@ func (this *DishCategoryController)Post() {
 	category_name := this.GetString("category_name", "")
 	dish_summary := this.GetString("dish_summary", "")
 	if len(category_name) < 3 {
-		errField := errorsField{"category_name", "菜品名称必须长度需大于2"}
+		errField := errorsField{"category_name", "菜品分类名称必须长度需大于2"}
 		result.FieldErrors = append(result.FieldErrors, errField)
 	}
 	if len(dish_summary) < 3 {
-		errField := errorsField{"dish_summary", "菜品简介必须长度需大于2"}
+		errField := errorsField{"dish_summary", "菜品分类简介必须长度需大于2"}
 		result.FieldErrors = append(result.FieldErrors, errField)
 	}
 	if len(result.FieldErrors) != 0 {
@@ -66,7 +66,7 @@ func (this *DishCategoryController)Post() {
 
 	dishExit := dish.ExistDishCategory("category_name", category_name)
 	if dishExit {
-		errField := errorsField{"category_name", "菜品名称已经存在"}
+		errField := errorsField{"category_name", "菜品名称分类已经存在"}
 		result.FieldErrors = append(result.FieldErrors, errField)
 		this.Data["json"] = result
 		this.ServeJSON()

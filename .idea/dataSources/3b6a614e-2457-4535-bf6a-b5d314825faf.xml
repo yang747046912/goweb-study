@@ -77,7 +77,7 @@
     </column>
     <column id="24" parent="9" name="dish_description">
       <Position>5</Position>
-      <DataType>text|0</DataType>
+      <DataType>mediumtext|0</DataType>
     </column>
     <column id="25" parent="9" name="dish_create_time">
       <Position>6</Position>
@@ -124,7 +124,7 @@
     </column>
     <column id="34" parent="10" name="image_url">
       <Position>2</Position>
-      <DataType>text|0</DataType>
+      <DataType>mediumtext|0</DataType>
     </column>
     <column id="35" parent="10" name="dish_id">
       <Position>3</Position>
