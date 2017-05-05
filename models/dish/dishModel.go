@@ -20,17 +20,18 @@ func init() {
 	orm.RegisterModel(new(AsDishes))
 }
 
-func CreateDish(dishName string, dishPrice float64, dishUnit string, dishDescription string, dishCategoryId int) bool {
+func CreateDish(dishName string, dishPrice float64, dishUnit string, dishDescription string, dishCategoryId int) (AsDishes, bool) {
 	o := orm.NewOrm()
 	time := time.Now()
-	dish := &AsDishes{DishName:dishName, DishPrice:dishPrice,
+	dish := AsDishes{DishName:dishName, DishPrice:dishPrice,
 		DishUnit:dishUnit, DishDescription:dishDescription,
 		DishCreateTime:time, DishModifyTime:time, DishCategoryId:dishCategoryId}
-	_, err := o.Insert(dish)
+	id, err := o.Insert(&dish)
 	if err != nil {
-		return false
+		return AsDishes{}, false
 	}
-	return true
+	dish.Id = int(id)
+	return dish, true
 }
 
 func GetDishes(search string, column string, dir string, pageSize int, pageNo int) ([]AsDishes, error) {

@@ -38,7 +38,7 @@ func (this*DishController)Get() {
 }
 
 func (this*DishController)Post() {
-	var result reslutData
+	var result reslutDataDish
 	dish_name := this.GetString("dish_name", "")
 	dish_description := this.GetString("dish_description", "")
 	dish_price, price_err := this.GetFloat("dish_price", 0)
@@ -83,10 +83,12 @@ func (this*DishController)Post() {
 		this.ServeJSON()
 		return
 	}
-	success := dish.CreateDish(dish_name, dish_price, dish_unit, dish_description, dish_category_id)
+	 dish,success := dish.CreateDish(dish_name, dish_price, dish_unit, dish_description, dish_category_id)
 	if !success {
 		errField := errorsField{"dish_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)
+	}else {
+		result.Data = append(result.Data, dish)
 	}
 	this.Data["json"] = result
 	this.ServeJSON()
@@ -96,7 +98,6 @@ type reslutDataDish struct {
 	FieldErrors []errorsField `json:"fieldErrors"`
 	Data        []dish.AsDishes `json:"data"`
 }
-
 
 func (this*DishController)Put() {
 	var result reslutDataDish

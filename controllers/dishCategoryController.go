@@ -72,10 +72,12 @@ func (this *DishCategoryController)Post() {
 		this.ServeJSON()
 		return
 	}
-	success := dish.CreateDishCategory(category_name, dish_summary)
+	dishCategory, success := dish.CreateDishCategory(category_name, dish_summary)
 	if !success {
 		errField := errorsField{"category_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)
+	} else {
+		result.Data = append(result.Data, dishCategory)
 	}
 	this.Data["json"] = result
 	this.ServeJSON()

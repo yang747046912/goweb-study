@@ -17,7 +17,7 @@ func init() {
 	orm.RegisterModel(new(AsCategoryDishes))
 }
 
-func CreateDishCategory(categoryName string, dishSummary string) bool {
+func CreateDishCategory(categoryName string, dishSummary string) (AsCategoryDishes, bool) {
 	o := orm.NewOrm()
 	var dishCategory AsCategoryDishes
 	dishCategory.CategoryName = categoryName
@@ -25,11 +25,12 @@ func CreateDishCategory(categoryName string, dishSummary string) bool {
 	time := time.Now()
 	dishCategory.DishCreateTime = time
 	dishCategory.DishModifyTime = time
-	_, err := o.Insert(&dishCategory)
+	id, err := o.Insert(&dishCategory)
 	if err != nil {
-		return false
+		return AsCategoryDishes{}, false
 	}
-	return true
+	dishCategory.Id = int(id)
+	return dishCategory, true
 }
 
 func GetDishCategories(search string, column string, dir string, pageSize int, pageNo int) ([]AsCategoryDishes, error) {
