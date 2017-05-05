@@ -19,3 +19,46 @@ type AsDishes struct {
 func init() {
 	orm.RegisterModel(new(AsDishes))
 }
+
+func CreateDish(dishName string, dishPrice float32, dishUnit string, dishDescription string, dishCategoryId int) bool {
+	o := orm.NewOrm()
+	time := time.Now()
+	dish := &AsDishes{DishName:dishName, DishPrice:dishPrice,
+		DishUnit:dishUnit, DishDescription:dishDescription,
+		DishCreateTime:time, DishModifyTime:time, DishCategoryId:dishCategoryId}
+	_, err := o.Insert(&dish)
+	if err != nil {
+		return false
+	}
+	return true
+}
+
+func GetDishes(search string, column string, dir string, pageSize int, pageNo int) ([]AsDishes, error) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsDishes{})
+	if len(search) != 0 {
+		qs = qs.Filter("category_name__contains", search)
+	}
+	if len(column) != 0&& len(dir) != 0 {
+		if dir == "asc" {
+			qs = qs.OrderBy(column)
+		} else if dir == "desc" {
+			qs = qs.OrderBy("-" + column)
+		}
+	}
+	offset := (pageNo - 1) * pageSize
+	qs = qs.Limit(pageSize, offset)
+	var categoryDishes []AsDishes
+	_, err := qs.All(&categoryDishes)
+	return categoryDishes, err
+}
+
+func GetDishesCount() int64 {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsDishes{})
+	unm, err := qs.Count()
+	if err != nil {
+		unm = 0
+	}
+	return unm
+}

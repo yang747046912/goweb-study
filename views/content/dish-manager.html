@@ -17,7 +17,7 @@
                     <div class="pull-right tableTools-container"></div>
                 </div>
                 <!--<div class="table-header">-->
-                    <!--Results for "Latest Registered Domains"-->
+                <!--Results for "Latest Registered Domains"-->
                 <!--</div>-->
 
                 <!-- div.table-responsive -->
@@ -36,6 +36,9 @@
                             <th>编号</th>
                             <th>名称</th>
                             <th class="hidden-480">简介</th>
+                            <th>单价</th>
+                            <th>单位</th>
+                            <th>所属类别</th>
                             <th>
                                 <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
                                 创建时间
@@ -123,6 +126,9 @@
                         },
                         {"data": "category_name"},
                         {"data": "dish_summary"},
+                        {"data": null},
+                        {"data": null},
+                        {"data": null},
                         {
                             "data": "dish_create_time",
                             "render": function (data, type, full, meta) {
@@ -417,7 +423,7 @@
             }
             $.ajax({
                     type: "get",
-                    url: "/dish/category/data",
+                    url: "/dish/dishes/data",
                     data: putData,
                     cache: false,
                     success: function (result) {
@@ -443,18 +449,18 @@
                 $.each(data.data, function (key, value) {
                     putData = value
                 });
-                url = "/dish/category/data"
+                url = "/dish/dishes/data"
             } else if (data.action == "remove") {
                 type = "DELETE"
                 $.each(data.data, function (id) {
-                    url = "/dish/category/data/" + id
+                    url = "/dish/dishes/data/" + id
                 })
 
             } else if (data.action == "edit") {
                 type = "PUT"
-                url = "/dish/category/data"
+                url = "/dish/dishes/data"
                 $.each(data.data, function (key, value) {
-                    url = "/dish/category/data/" + key
+                    url = "/dish/dishes/data/" + key
                     putData = value
                 })
             }

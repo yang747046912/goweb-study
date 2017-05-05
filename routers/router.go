@@ -11,5 +11,6 @@ func init() {
 	beego.Router("/user/password", &controllers.UserController{})
 	beego.Router("/user/register", &controllers.SignController{})
 	beego.Router("/main/view", &controllers.MainViewController{})
-	beego.Router("/dish/category/data/?:id",&controllers.DishController{})
+	beego.Router("/dish/category/data/?:id", &controllers.DishCategoryController{})
+	beego.Router("/dish/dishes/data/?:id", &controllers.DishController{})
 }
