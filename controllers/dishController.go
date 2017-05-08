@@ -6,13 +6,26 @@ import (
 	"strconv"
 	"demo/models/images"
 	"github.com/astaxie/beego/logs"
+	"time"
 )
 
 type tatallDataDish struct {
 	RecordsTotal    int64 `json:"recordsTotal"`
 	RecordsFiltered int64 `json:"recordsFiltered"`
 	Draw            int `json:"draw"`
-	Rows            [] dish.AsDishes `json:"data"`
+	Rows            [] outAsDishes `json:"data"`
+}
+
+type outAsDishes struct {
+	Id              int              `json:"id"`
+	DishName        string           `json:"dish_name"`
+	DishPrice       float64          `json:"dish_price"`
+	DishUnit        string           `json:"dish_unit"`
+	DishDescription string           `json:"dish_description"`
+	DishCreateTime  time.Time        `json:"dish_create_time"`
+	DishModifyTime  time.Time        `json:"dish_modify_time"`
+	DishCategoryId  int              `json:"dish_category_id"`
+	Images          []images.AsImages                `json:"images"`
 }
 
 type DishController struct {
@@ -26,15 +39,31 @@ func (this*DishController)Get() {
 	dir := this.GetString("dir", "")
 	pageSize, _ := this.GetInt("pageSize", 10)
 	pageNo, _ := this.GetInt("pageNo", 1)
-	categoryDishes, err := dish.GetDishes(search, column, dir, pageSize, pageNo)
+	categoryDishes, _ := dish.GetDishes(search, column, dir, pageSize, pageNo)
 	var tatall tatallDataDish
 	tatall.Draw = draw
-	if err == nil {
-		tatall.Rows = categoryDishes
-	}
 	count := dish.GetDishesCount()
+	var outAsDish []outAsDishes
+	for _, value := range categoryDishes {
+		outTmp := outAsDishes{}
+		imagesIds := images.GetImageIDbyDishID(value.Id)
+		if len(imagesIds) != 0 {
+			outTmp.Images = images.GetImageUrlByImageIDs(imagesIds)
+		}
+		outTmp.Id = value.Id
+		outTmp.DishCategoryId = value.DishCategoryId
+		outTmp.DishModifyTime = value.DishModifyTime
+		outTmp.DishCreateTime = value.DishCreateTime
+		outTmp.DishDescription = value.DishDescription
+		outTmp.DishUnit = value.DishUnit
+		outTmp.DishPrice = value.DishPrice
+		outTmp.DishName = value.DishName
+		outAsDish = append(outAsDish, outTmp)
+	}
+
 	tatall.RecordsFiltered = count
 	tatall.RecordsTotal = count
+	tatall.Rows = outAsDish
 	this.Data["json"] = tatall
 	this.ServeJSON()
 }

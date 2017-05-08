@@ -35,3 +35,27 @@ func InReferencesDishImages(imageId int, dishId int) error {
 	_, inErrTmp := o.Insert(&image)
 	return inErrTmp
 }
+
+func GetImageIDbyDishID(dishId int) [] int {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsImagesDishes{})
+	com := orm.NewCondition()
+	com = com.And("dish_id", dishId)
+	qs = qs.SetCond(com)
+	var image []*AsImagesDishes
+	//	qs.All(&users)
+	qs.All(&image)
+	var imageIds []int
+	for _,value:=range image {
+		imageIds = append(imageIds,value.ImageId)
+	}
+	return imageIds
+}
+
+func GetImageUrlByImageIDs(imageIDs []int) []AsImages {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsImages{})
+	var image []AsImages
+	qs.Filter("id__in" ,imageIDs).All(&image)
+	return image
+}

@@ -39,6 +39,7 @@
                             <th>单价</th>
                             <th>单位</th>
                             <th>所属类别</th>
+                            <th>图片数量</th>
                             <th>
                                 <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
                                 创建时间
@@ -165,6 +166,17 @@
                                     }
                                 })
                                return  result
+                            }
+                        },
+                        {
+                            "className": "center",
+                            "orderable": false,
+                            "data": "images",
+                            "render": function (data, type, full, meta) {
+                                if (data==null){
+                                    return "暂没有图片"
+                                }
+                                return '<a class="blue" href="#"><i class="ace-icon fa fa-search-plus bigger-130"></i></a>'
                             }
                         },
                         {
