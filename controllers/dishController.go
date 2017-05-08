@@ -4,6 +4,8 @@ import (
 	"github.com/astaxie/beego"
 	"demo/models/dish"
 	"strconv"
+	"demo/models/images"
+	"github.com/astaxie/beego/logs"
 )
 
 type tatallDataDish struct {
@@ -38,6 +40,7 @@ func (this*DishController)Get() {
 }
 
 func (this*DishController)Post() {
+	logs.Debug("DishController ")
 	var result reslutDataDish
 	dish_name := this.GetString("dish_name", "")
 	dish_description := this.GetString("dish_description", "")
@@ -83,13 +86,29 @@ func (this*DishController)Post() {
 		this.ServeJSON()
 		return
 	}
-	 dish,success := dish.CreateDish(dish_name, dish_price, dish_unit, dish_description, dish_category_id)
+	dish, success := dish.CreateDish(dish_name, dish_price, dish_unit, dish_description, dish_category_id)
 	if !success {
 		errField := errorsField{"dish_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)
-	}else {
+	} else {
 		result.Data = append(result.Data, dish)
 	}
+	dish_image_ids := this.GetStrings("dish_image_ids[]", nil)
+	logs.Debug(dish_image_ids)
+	if len(dish_image_ids) != 0 {
+		for _, value := range dish_image_ids {
+			intTmp, err := strconv.Atoi(value)
+			if err != nil {
+				errField := errorsField{"dish_name", "图片ID不正确"}
+				result.FieldErrors = append(result.FieldErrors, errField)
+				this.Data["json"] = result
+				this.ServeJSON()
+				return
+			}
+			images.InReferencesDishImages(intTmp, dish.Id)
+		}
+	}
+
 	this.Data["json"] = result
 	this.ServeJSON()
 }
@@ -147,8 +166,8 @@ func (this*DishController)Put() {
 	}
 	id := this.Ctx.Input.Param(":id")
 	iid, _ := strconv.Atoi(id)
-	category,err := dish.UpdateDish(iid, dish_name, dish_description,dish_price,dish_unit,dish_category_id)
-	if err!=nil {
+	category, err := dish.UpdateDish(iid, dish_name, dish_description, dish_price, dish_unit, dish_category_id)
+	if err != nil {
 		errField := errorsField{"dish_name", "系统错误"}
 		result.FieldErrors = append(result.FieldErrors, errField)
 		this.Data["json"] = result

@@ -13,4 +13,5 @@ func init() {
 	beego.Router("/main/view", &controllers.MainViewController{})
 	beego.Router("/dish/category/data/?:id", &controllers.DishCategoryController{})
 	beego.Router("/dish/dishes/data/?:id", &controllers.DishController{})
+	beego.Router("/image/dishes/data/?:id", &controllers.ImageController{})
 }

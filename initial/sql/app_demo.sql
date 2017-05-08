@@ -1,12 +1,49 @@
-DROP TABLE IF EXISTS as_user;
+create table as_category_dishes
+(
+  id int not null auto_increment
+    primary key,
+  category_name varchar(255) not null,
+  dish_create_time datetime not null,
+  dish_summary text not null,
+  dish_modify_time datetime not null,
+  constraint category_name
+  unique (category_name)
+)
+;
 
-CREATE TABLE as_user(
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-  user_name VARCHAR(255) NOT NULL UNIQUE,
-  password VARCHAR(255) NOT NULL ,
-  email VARCHAR(255) NOT NULL
-);
+create table as_dishes
+(
+  id int not null auto_increment
+    primary key,
+  dish_name varchar(255) not null,
+  dish_price float not null,
+  dish_unit varchar(255) not null,
+  dish_description mediumtext null,
+  dish_create_time datetime not null,
+  dish_modify_time datetime not null,
+  dish_category_id int not null,
+  constraint dish_name
+  unique (dish_name),
+  constraint as_dishes_ibfk_1
+  foreign key (dish_category_id) references app_demo.as_category_dishes (id)
+)
+;
 
-INSERT INTO as_user (user_name, password, email)VALUES ('yang747046912','6343498a','18010450019@163.com');
+create index dish_category_id
+  on as_dishes (dish_category_id)
+;
 
-SELECT * FROM as_user;
+create table user_info
+(
+  id int not null auto_increment
+    primary key,
+  user_name varchar(255) not null,
+  password varchar(255) not null,
+  email varchar(255) not null,
+  constraint user_name
+  unique (user_name),
+  constraint email
+  unique (email)
+)
+;
+
