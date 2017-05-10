@@ -1,6 +1,8 @@
 <title>Tables - Ace Admin</title>
 <!--<link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.dataTables.min.css"/>-->
 <link rel="stylesheet" href="/static/ace-1.4/components/datatable.net-editor/css/editor.bootstrap.css"/>
+<link rel="stylesheet" href="/static/css/theme_main.css"/>
+<link rel="stylesheet" href="/static/third_paty/viewer/viewer.min.css"/>
 <!-- ajax layout which only needs content area -->
 
 <!-- /.page-header -->
@@ -56,7 +58,17 @@
             </div>
         </div>
 
-
+        <ul class="docs-pictures clearfix">
+           <img data-original="../assets/img/tibet-1.jpg" src="../assets/img/thumbnails/tibet-1.jpg" >
+            <img data-original="../assets/img/tibet-2.jpg" src="../assets/img/thumbnails/tibet-2.jpg" >
+            <img data-original="../assets/img/tibet-3.jpg" src="../assets/img/thumbnails/tibet-3.jpg" >
+            <img data-original="../assets/img/tibet-4.jpg" src="../assets/img/thumbnails/tibet-4.jpg" >
+           <img data-original="../assets/img/tibet-5.jpg" src="../assets/img/thumbnails/tibet-5.jpg" >
+           <img data-original="../assets/img/tibet-6.jpg" src="../assets/img/thumbnails/tibet-6.jpg">
+            <img data-original="../assets/img/tibet-7.jpg" src="../assets/img/thumbnails/tibet-7.jpg" >
+           <img data-original="../assets/img/tibet-8.jpg" src="../assets/img/thumbnails/tibet-8.jpg" >
+           <img data-original="../assets/img/tibet-9.jpg" src="../assets/img/thumbnails/tibet-9.jpg" >
+        </ul>
         <!-- PAGE CONTENT ENDS -->
     </div><!-- /.col -->
 </div><!-- /.row -->
@@ -73,6 +85,7 @@
         "/static/ace-1.4/components/datatables.net-select/js/dataTables.select.js",
         "/static/ace-1.4/components/datatable.net-editor/js/dataTables.editor.js",
         "/static/ace-1.4/components/datatable.net-editor/js/editor.bootstrap.js",
+        "/static/third_paty/viewer/viewer.min.js",
         null];
 
     $('.page-content-area').ace_ajax('loadScripts', scripts, function () {
@@ -176,7 +189,14 @@
                                 if (data==null){
                                     return "暂没有图片"
                                 }
-                                return '<a class="blue" href="#"><i class="ace-icon fa fa-search-plus bigger-130"></i></a>'
+                                var images = ''
+                                $.each(data,function(key,value){
+                                    images = images+ '<img data-original='+ value.image_url + ' src='+ value.image_url+ '>'
+                                })
+
+                                return '<a id="blue-view-photo" class="blue" href="#"><i class="ace-icon fa fa-search-plus bigger-130"></i></a>'+
+                                    '   <ul class="docs-pictures clearfix">'+images+
+                                    '    </ul>'
                             }
                         },
                         {
@@ -361,7 +381,13 @@
                 buttons: '确定'
             });
         });
-
+        //查看图片
+        myTable.on('click', '#blue-view-photo', function (e) {
+            e.preventDefault();
+           var ul=$(this).closest('td').find('ul')
+            console.log(ul)
+            ul.viewer('show')
+        });
         myTable.on('click', '#pos-rel-checkbox', function (e) {
             e.preventDefault()
             var tr = $(this).closest('tr')
@@ -540,5 +566,8 @@
                 }
             )
         }
+        var $images = $('.docs-pictures');
+        console.log($images)
+        $images.viewer();
     });
 </script>
