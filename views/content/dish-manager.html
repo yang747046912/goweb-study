@@ -374,7 +374,7 @@
         myTable.on('click', '#blue-view-photo', function (e) {
             e.preventDefault();
            var ul=$(this).closest('td').find('ul')
-
+            ul.viewer('destroy').viewer({movable:false});
             ul.viewer('show')
         });
         myTable.on('click', '#pos-rel-checkbox', function (e) {
