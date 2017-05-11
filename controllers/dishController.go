@@ -25,7 +25,7 @@ type outAsDishes struct {
 	DishCreateTime  time.Time        `json:"dish_create_time"`
 	DishModifyTime  time.Time        `json:"dish_modify_time"`
 	DishCategoryId  int              `json:"dish_category_id"`
-	Images          []images.AsImages                `json:"images"`
+	Images          []images.AsImages                `json:"files"`
 }
 
 type DishController struct {

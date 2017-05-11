@@ -106,22 +106,23 @@
                     }
                 },{
                     label:"图片",
-                    name:"image_id",
+                    name:"files",
                     ajax:"/image/dishes/data",
                     type: "uploadMany",
                     noFileText: '没有图片',
                      display: function ( fileId, counter ) {
+
                      return '<img src='+fileId.image_url+'/>'
                                 }
                       }
             ]
         });
         editor.on('submitError', function (e, xhr, err, thrown, data) {
-            console.log(e)
-            console.log(xhr)
-            console.log(err)
-            console.log(thrown)
-            console.log(data)
+
+
+
+
+
             this.error(xhr.responseText);
         });
         //inline scripts related to this page
@@ -172,7 +173,7 @@
                         {
                             "className": "center",
                             "orderable": false,
-                            "data": "images",
+                            "data": "files",
                             "render": function (data, type, full, meta) {
                                 if (data==null){
                                     return "暂没有图片"
@@ -373,7 +374,7 @@
         myTable.on('click', '#blue-view-photo', function (e) {
             e.preventDefault();
            var ul=$(this).closest('td').find('ul')
-            console.log(ul)
+
             ul.viewer('show')
         });
         myTable.on('click', '#pos-rel-checkbox', function (e) {
@@ -498,25 +499,24 @@
             )
         }
         function editAjaxData(method, url, data, successCallback, errorCallback) {
-            console.log(data)
+
             var putData = new Object()
             var type
             var url
             if (data.action == "create") {
                 type = "POST"
                 $.each(data.data, function (key, value) {
-                    console.log(value.image_id.length)
-                    if (value.image_id.length!=0){
+                    if (value.files.length!=0){
                         putData.dish_category_id=value.dish_category_id
                         putData.dish_description=value.dish_description
                         putData.dish_name=value.dish_name
                         putData.dish_price=value.dish_price
                         putData.dish_unit=value.dish_unit
                         var image_id = new Array();
-                        $.each(value.image_id,function(key,value){
+                        $.each(value.files,function(key,value){
                             image_id[key] = value.id
-                            console.log(key)
-                            console.log(image_id[key])
+
+
                         })
                         putData.dish_image_ids = image_id
                     }else {
@@ -544,7 +544,7 @@
                     cache: false,
                     success: function (result) {
                         setTimeout(function () {
-                            console.log(result)
+
                             successCallback(result)
                         }, 200)
                     },

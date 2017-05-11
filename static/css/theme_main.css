@@ -32,9 +32,7 @@
 }
 
 .docs-pictures {
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
+    display: none;
     margin: 0;
     padding: 0;
     list-style: none;
