@@ -20,6 +20,9 @@ func (this *MainViewController)Get() {
 		this.TplName = "main.html"
 		return
 	}
+	if page =="index"{
+		page="dish-category-manager"
+	}
 	tpl := fmt.Sprintf("content/%s.html", page)
 	logs.Debug(tpl)
 	if page == "dish-manager" {
