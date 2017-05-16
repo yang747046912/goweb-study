@@ -97,3 +97,4 @@ func UpdateDishCategory(id int, categoryName string, dishSummary string) (AsCate
 	o.Read(&dish)
 	return dish, nil
 }
+

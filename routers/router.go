@@ -3,6 +3,7 @@ package routers
 import (
 	"github.com/astaxie/beego"
 	"demo/controllers"
+	"demo/controllers/app"
 )
 
 func init() {
@@ -14,4 +15,6 @@ func init() {
 	beego.Router("/dish/category/data/?:id", &controllers.DishCategoryController{})
 	beego.Router("/dish/dishes/data/?:id", &controllers.DishController{})
 	beego.Router("/image/dishes/data/?:id", &controllers.ImageController{})
+
+	beego.Router("/app/dish/categories",&app.AppDishController{})
 }
