@@ -94,3 +94,12 @@ func UpdateDish(id int, categoryName string, dishSummary string, dishPrice float
 	o.Read(&dish)
 	return dish, nil
 }
+
+func GetDishesByDishCategoryId(dishCategoryId int) ([]AsDishes, error) {
+	o := orm.NewOrm()
+	qs := o.QueryTable(&AsDishes{})
+	qs = qs.Filter("dish_category_id", dishCategoryId)
+	var categoryDishes []AsDishes
+	_, err := qs.All(&categoryDishes)
+	return categoryDishes, err
+}
