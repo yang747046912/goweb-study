@@ -4,7 +4,7 @@
     <list default="true" id="dd55df67-c8e5-4318-a2f2-b993c22e735d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo" afterPath="$PROJECT_DIR$/demo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/dishController.go" afterPath="$PROJECT_DIR$/controllers/dishController.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/app/dishController.go" afterPath="$PROJECT_DIR$/controllers/app/dishController.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,14 +81,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/app/dishController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            <state relative-caret-position="476">
+              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="46" />
               <folding>
                 <element signature="e#13#93#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imageModel.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/images/imageModel.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,38 +118,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imageModel.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/images/imageModel.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4495">
-              <caret line="145" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="94" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dishController.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+            <state relative-caret-position="-392">
+              <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_demo.as_images_dishes" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_images_dishes">
+      <file leaf-file-name="dishModel.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/dish/dishModel.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="22" column="122" lean-forward="false" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="122" />
+              <folding>
+                <element signature="n#!!block;n#init#0" expanded="false" />
+                <element signature="n#!!block;n#GetDishesCount#0" expanded="false" />
+                <element signature="n#!!block;n#ExistDishes#0" expanded="false" />
+                <element signature="n#!!block;n#DeleteDish#0" expanded="false" />
+                <element signature="n#!!block;n#UpdateDish#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_demo.as_dishes" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_dishes">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -149,6 +165,18 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#17#99#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,30 +196,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console_19.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_19.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding>
-                <element signature="e#17#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_demo.as_dishes" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_dishes">
+      <file leaf-file-name="app_demo.as_images_dishes" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_images_dishes">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -220,11 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sInfo</find>
-      <find>sInfoPostFix</find>
-      <find>selected</find>
-      <find>sProcessing</find>
-      <find>sInfoEmpty</find>
       <find>info</find>
       <find>Tab</find>
       <find>select-info</find>
@@ -250,6 +251,11 @@
       <find>Math</find>
       <find>rema</find>
       <find>`</find>
+      <find>ad1_rinima1</find>
+      <find>&lt;ul id=&quot;ad1_rinima1&quot; class=&quot;clearfix&quot;&gt;</find>
+      <find>&quot;.*&quot;</find>
+      <find>AsImagesDishes</find>
+      <find>img src=&quot;.*&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/ace-1.4</replace>
@@ -274,8 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/login.html" />
-        <option value="$PROJECT_DIR$/static/js/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/inc/common.tpl" />
         <option value="$PROJECT_DIR$/views/login.tpl" />
         <option value="$PROJECT_DIR$/static/js/login.js" />
@@ -321,10 +325,12 @@
         <option value="$PROJECT_DIR$/models/dish/dishCategoryModel.go" />
         <option value="dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_dishes" />
         <option value="$PROJECT_DIR$/models/dish/dishModel.go" />
+        <option value="$PROJECT_DIR$/controllers/dishController.go" />
         <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/views/aaa.go" />
+        <option value="$PROJECT_DIR$/views/aaa.html" />
         <option value="$PROJECT_DIR$/controllers/app/dishController.go" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql" />
-        <option value="$PROJECT_DIR$/controllers/dishController.go" />
       </list>
     </option>
   </component>
@@ -398,6 +404,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="routers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -413,6 +433,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1076,12 +1100,12 @@
       <workItem from="1494467087103" duration="8308000" />
       <workItem from="1494851118213" duration="2464000" />
       <workItem from="1494897632147" duration="14050000" />
-      <workItem from="1494990371677" duration="4019000" />
+      <workItem from="1494990371677" duration="15879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305020000" />
+    <option name="totallyTimeSpent" value="316880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,10 +1132,10 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.71162283" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7861842" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1851435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3764772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1851435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24985932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1151,8 +1175,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5745614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.71162283" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71162283" sideWeight="0.49804798" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7861842" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3764772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5350877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1202,20 +1226,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/httplib/httplib.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_13.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/content/dishmanager.html" />
     <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/redis/redis.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -1462,10 +1472,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_20.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_19.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/aaa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/dishCategoryController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="424">
+          <caret line="51" column="58" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="51" selection-end-column="58" />
+          <folding>
+            <element signature="e#120#148#0" expanded="false" />
+            <element signature="e#166#360#0" expanded="false" />
+            <element signature="e#379#449#0" expanded="false" />
+            <element signature="e#467#576#0" expanded="false" />
+            <element signature="n#!!block;n#Delete#0" expanded="false" />
+            <element signature="n#!!block;n#Put#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1482,40 +1524,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/dish/dishModel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#CreateDish#0" expanded="false" />
-            <element signature="n#!!block;n#GetDishesCount#0" expanded="false" />
-            <element signature="n#!!block;n#ExistDishes#0" expanded="false" />
-            <element signature="n#!!block;n#DeleteDish#0" expanded="false" />
-            <element signature="n#!!block;n#UpdateDish#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/images/imageModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="214">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="589">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#17#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_dishes">
+    <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_category_dishes">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1528,29 +1555,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/app/dishController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <element signature="e#13#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_20.sql">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.user_info">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console_19.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1580,7 +1594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_category_dishes">
+    <entry file="dbDummy://dbtable:/358b554f/3b6a614e-2457-4535-bf6a-b5d314825faf/app_demo.as_dishes">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1593,19 +1607,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql">
+    <entry file="file://$PROJECT_DIR$/models/dish/dishModel.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4495">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="293">
+          <caret line="22" column="122" lean-forward="false" selection-start-line="22" selection-start-column="114" selection-end-line="22" selection-end-column="122" />
+          <folding>
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#GetDishesCount#0" expanded="false" />
+            <element signature="n#!!block;n#ExistDishes#0" expanded="false" />
+            <element signature="n#!!block;n#DeleteDish#0" expanded="false" />
+            <element signature="n#!!block;n#UpdateDish#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/dishController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="-392">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b6a614e-2457-4535-bf6a-b5d314825faf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="94" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/app/dishController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="46" />
+          <folding>
+            <element signature="e#13#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
