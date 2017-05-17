@@ -43,7 +43,7 @@ func (this*DishController)Get() {
 	var tatall tatallDataDish
 	tatall.Draw = draw
 	count := dish.GetDishesCount()
-	var outAsDish []outAsDishes
+	var outAsDish []outAsDishes = []outAsDishes{}
 	for _, value := range categoryDishes {
 		outTmp := outAsDishes{}
 		imagesIds := images.GetImageIDbyDishID(value.Id)
@@ -60,7 +60,6 @@ func (this*DishController)Get() {
 		outTmp.DishName = value.DishName
 		outAsDish = append(outAsDish, outTmp)
 	}
-
 	tatall.RecordsFiltered = count
 	tatall.RecordsTotal = count
 	tatall.Rows = outAsDish
